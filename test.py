@@ -2,6 +2,10 @@
 # print command is used to print something on console
 print("Hello, This is Just for Testing")
 
+
+
+
+
 # Exercise 1: -
 # Taking input from user
 name =\
@@ -34,3 +38,28 @@ percentage = (Total/3)
 print("User name is " +name+", Scored " + str(percentage) + " % in exams")
 
 
+# Exercise 3
+Enter_number = input("Enter a number")
+if (int(Enter_number)>=100):
+    print("Number is greater")
+else:
+    print("Number is smaller")
+
+
+# Exercise 4
+number = input("Enter the number")
+if (int(number) < 0):
+    print("Number is -ve")
+elif (int(number) == 0):
+    print("Number is 0")
+elif (int(number) % 2 == 0):
+    print("number is even")
+else:
+    print("number is odd")
+
+# Condition handling using if else
+# Condition handling using if ,elif, elif...else
+# Condition handling using nested  if if else else
+# Condition handling using logical or condition (or)
+# Condition handling using logical and condition (and)
+# Condition handling using with Not condition (!=)
