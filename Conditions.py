@@ -9,7 +9,7 @@ number2 = input("Enter Second number ")
 number2 = int(number2)
 
 number3 = input("Enter Third number ")
-number3 = int(number3)a
+number3 = int(number3)
 
 if (number1>number2 and number1>number3):
     print(str(number1) + " is largest number")
