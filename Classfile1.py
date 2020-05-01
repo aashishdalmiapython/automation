@@ -24,7 +24,7 @@ mul = obj.mul(2,4)
 print(mul)
 
 # Class 2  - with Constructors
-class A:
+class B:
     # first method in a call is contructur
     # it is always named as "__init__"
     # In contructur, define the part of code that need to be execute at the start
@@ -42,7 +42,7 @@ class A:
 
 # no need to call the constuctor method,
 # it is by default called on creating the class object
-obj = A(23,23)
+obj = B(23,23)
 obj.add(23, 11)
 x =obj.sub(11, 3)
 print(x)
