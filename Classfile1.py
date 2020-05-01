@@ -15,13 +15,13 @@ class A:
 
 # for Calling the class - defined object of the class and pass class name
 # after that - call the class function/methods.
-obj = A()
-s = obj.sum(12,12)
-e=obj.url()
-print(e)
+#obj = A()
+#s = obj.sum(12,12)
+#e=obj.url()
+#print(e)
 
-mul = obj.mul(2,4)
-print(mul)
+#mul = obj.mul(2,4)
+#print(mul)
 
 # Class 2  - with Constructors
 class B:
@@ -42,7 +42,7 @@ class B:
 
 # no need to call the constuctor method,
 # it is by default called on creating the class object
-obj = B(23,23)
-obj.add(23, 11)
-x =obj.sub(11, 3)
-print(x)
+#obj = B(23,23)
+#obj.add(23, 11)
+#x =obj.sub(11, 3)
+#print(x)
