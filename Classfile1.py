@@ -28,7 +28,6 @@ class B:
     # first method in a call is contructur
     # it is always named as "__init__"
     # In contructur, define the part of code that need to be execute at the start
-
     def __init__(self,a,b):
         print("This is Class Constructor")
         c=a+b
@@ -46,3 +45,12 @@ class B:
 #obj.add(23, 11)
 #x =obj.sub(11, 3)
 #print(x)
+
+class c:
+
+    def __init__(self):
+        print("this is the start of the class")
+
+    def diff(self,a,b):
+        c= a-b
+        return c
