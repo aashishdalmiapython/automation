@@ -12,7 +12,7 @@ y = objfile.readline()
 for i in y:
     print(y)
     objfile.seek(7)  # move to the cursor to the mention position...
-    print(objfile.tell()) # tell the current position on curson
+    print(objfile.tell()) # tell the current position of cursur in file
     y = objfile.readline()
 
 # to read line by line
