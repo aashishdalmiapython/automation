@@ -1,4 +1,4 @@
-import Pymodule # executeable code gets executed
+import Pymodule # on importing the module - executeable code gets executed
 
 # To call the module_function
 Pymodule.sum(5,4)
