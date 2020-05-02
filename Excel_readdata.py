@@ -16,7 +16,7 @@ print(no_of_rows)
 cell_value = Worksheet.cell(1,1).value
 print(cell_value)
 
-# loop to get all the values from worksheet column & rows
+# loop to read all the values from worksheet column/rows
 for row in range(no_of_rows):
     for colm in range(no_of_column):
         value = Worksheet.cell(row,colm).value
