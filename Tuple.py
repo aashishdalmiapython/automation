@@ -7,6 +7,10 @@ print(tuple1[4])
 for i in range(len(tuple1)):
     print(tuple1[i])
 
+for j in tuple1:
+    print(j)
+
+
 # join two tuple
 tuple2 = (23,98)
 tuple3 =tuple1+tuple2
