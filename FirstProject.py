@@ -48,10 +48,17 @@ try:
     print(sex_dd.first_selected_option.text)
     county_dd = Select(driver.find_element_by_name("country"))
     county_dd.select_by_index(101)
+
+    ## to get the selected option
     print(county_dd.first_selected_option.text)
+
+    ## to get all dropdown values.
+    for i in county_dd.options:
+        print(i.text)
+
     driver.find_element_by_name("terms").click()
     time.sleep(60)
-    #driver.find_element_by_xpath("//input[@value='Sign up']").click()
+    driver.find_element_by_xpath("//input[@value='Sign up']").click()
     driver.quit()
     status = "Pass"
 except:
