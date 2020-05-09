@@ -1,6 +1,7 @@
 from selenium import webdriver
+from selenium.webdriver import Chrome
 import time
-driver = webdriver.Firefox(executable_path=r"C:\Driver\geckodriver.exe")
+driver = Chrome(executable_path="C:\\Driver\\chromedriver.exe")
 url = "http://demo.automationtesting.in/Windows.html"
 driver.get(url)
 driver.maximize_window()
